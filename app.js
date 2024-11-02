@@ -5,7 +5,7 @@ import postModel from './models/postSchema.js';
 import userModel from './models/userScheme.js';
 import bcrypt from 'bcrypt';
 
-const port = process.env.PORT
+const port = process.env.PORT || 6090
 const dbUrl = process.env.DB_URI
 
 const app = express()
